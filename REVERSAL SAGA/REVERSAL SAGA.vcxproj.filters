@@ -1,27 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="ソース ファイル">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="ヘッダー ファイル">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
     <Filter Include="リソース ファイル">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Class">
+      <UniqueIdentifier>{7b748143-5ea0-4c53-b7e7-c5529361e075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\SceneManager">
+      <UniqueIdentifier>{fbd82ec9-1a8a-4cec-bd40-331f92e95608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\SceneManager\Scene">
+      <UniqueIdentifier>{6185fa69-622d-47f8-8eb6-cfcdacd5d998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="命名規則">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Class\SceneManager\Scene\TitleScene">
+      <UniqueIdentifier>{38ab341b-e7fa-4818-8457-bd0532f12de7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\SceneManager\SceneManager.cpp">
+      <Filter>Class\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\SceneManager\Scene\Scene.cpp">
+      <Filter>Class\SceneManager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\SceneManager\Scene\TitleScene\TitleScene.cpp">
+      <Filter>Class\SceneManager\Scene\TitleScene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Class\SceneManager\SceneManager.h">
+      <Filter>Class\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\SceneManager\Scene\Scene.h">
+      <Filter>Class\SceneManager\Scene</Filter>
+    </ClInclude>
     <ClInclude Include="main.h">
-      <Filter>ヘッダー ファイル</Filter>
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\SceneManager\Scene\TitleScene\TitleScene.h">
+      <Filter>Class\SceneManager\Scene\TitleScene</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

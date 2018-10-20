@@ -115,9 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Class\SceneManager\SceneManager.cpp" />
+    <ClCompile Include="Class\SceneManager\Scene\Scene.cpp" />
+    <ClCompile Include="Class\SceneManager\Scene\TitleScene\TitleScene.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Class\SceneManager\SceneManager.h" />
+    <ClInclude Include="Class\SceneManager\Scene\Scene.h" />
+    <ClInclude Include="Class\SceneManager\Scene\TitleScene\TitleScene.h" />
     <ClInclude Include="main.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
